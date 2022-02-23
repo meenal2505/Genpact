@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+</head>
+<style>
+    body{
+        font-family:Roboto;
+    }
+    .card{
+      height: 310px;
+      width: 500px;
+      background-image:linear-gradient(rgba(255, 61, 61, 1),rgba(255, 61, 61, 0.8));
+      border-radius: 20px;
+      color:white;
+      margin:20px;
+      font-size: 16px;
+      box-shadow: 2px 2px 20px #707070;
+    }
+    .top-block{
+      display: inline-block;
+      width:500px;
+      height:155px;
+    }
+    .bottom-block{
+      display: inline-block;
+      width:500px;
+      height:155px;
+    }
+    .card-chip{
+      float:left;
+      margin: 20px;
+    }
+    .card-name{
+      float:right;
+      margin:20px;
+      position:relative;
+      font-size: 28px;
+      font-weight:550;
+    }
+    .card-number{
+      font-size: 28px;
+      margin: -15px 0 0 0;
+      text-align-last: center; 
+    }
+    .balance{
+      float:left;
+      margin: 20px;
+      position:relative;
+      top:38px;
+    }
+    .card-balance{
+      font-weight:700;
+      font-size: 30px;
+      margin-top:10px;
+    }
+    .card-icon{
+      float:right;
+      margin: 0 20px 0 0;
+      margin-top:75px;
+    }
+    .circle-left{
+      margin-right: -15px;
+      opacity:0.7;
+    }
+</style>
+<body>
+    <div class='card'>
+      <div class='top-block'>
+        <div class='card-chip'>
+          <i class="icon-credit-card icon-3x"></i>
+        </div>
+        <span class='card-name'>
+          Google Pay
+        </span>
+      </div>
+       <div class='card-number'>
+         <p>5459 xxxx xxxx 7203</p>
+        </div>
+      <div class='bottom-block'>
+        <div class='balance'>
+          <div>Balance</div>
+          <div class='card-balance'>
+            ₹ 8619.98
+          </div>
+        </div>
+        <div class='card-icon'>
+          <span class='circle-left'>
+            <i class="icon-circle icon-3x "></i>
+          </span>
+          <i class="icon-circle icon-3x"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
